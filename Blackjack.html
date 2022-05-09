@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Blackjack</title>
+  <meta name="description" content="Blackjack game">
+  <meta name="author" content="Tomi Salonen">
+
+  <meta property="og:title" content="Blackjack">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="A simple Blackjack game">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="cards/h1.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- your content here... -->
+  <div class="dealerArea">
+    <header class="dealerText">Dealers hand</header>
+    <ul class="cardDisplay" id="dealerCards">
+      <li><img src="cards/b.svg" alt=""></li>
+      <li><img src="cards/b.svg" alt=""></li>
+    </ul>
+    <header class="dealerText" id="dealerScore"><br></header>
+  </div>
+  <div class="playerArea">
+    <header class="playerText">Your hand</header>
+    <ul class="cardDisplay" id="playerCards">
+      <li><img src="cards/b.svg" alt=""></li>
+      <li><img src="cards/b.svg" alt=""></li>
+    </ul>
+    <header class="playerText" id="playerScore"><br></header>
+    <header class="playerText" id="conclusion"></header>
+    <div id="buttons">
+      <button class="button" id="start">Start!</button>
+      <button class="button" id="hit" hidden>Hit</button>
+      <button class="button" id="stay" hidden>Stay</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+Ideas for improvement
+1. Ask for player name and display that instead of "Player" string
+2. Score keeping for wins and losses
+3. Betting and virtual money
+4. Achievements/statistics
+    -win without hitting (x?)
+    -win with 5 cards or more (x?)
+    -win x amount of money in total
+    -lose x amount of money in total
+    -press hit button x times
+    -bet x amount in one go
+    -win x amount in one go
+    -lose x amount in one go
+    - achievement/statistics list/view
+5. save player stats in file
+6. load player stats from file
+7. do above in some database format and not just .txt

@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(35, 35, 35, 1);
+    color: whitesmoke;
+}
+
+.cardDisplay {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: auto auto auto auto;
+    justify-content: center;
+}
+
+.cardDisplay li {
+    margin: 5px;
+    height: 200px;
+    padding: 2px;
+    flex-shrink: 5;
+}
+
+.cardDisplay li img {
+    width: 100%;
+    height: 100%;
+}
+
+.dealerText {
+    font-size: 35px;
+    text-align: center;
+}
+
+.playerText {
+    font-size: 35px;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 25px;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+
+#hit{
+    background-color: white;
+}
+.playerArea {
+    margin-top: 50px;
+}
+
+#conclusion{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0px;
+}
+
